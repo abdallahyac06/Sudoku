@@ -13,7 +13,7 @@ int main() {
         printGrid(grid, SUB_ROW, SUB_COL, SIZE);
 
         while (!quit) {
-            std::cout << "Enter the row (-1 to quit the game) : ";
+            std::cout << "Enter the row (-1 to quit the game) :" << std::endl;
             std::cin >> row;
             if (row == -1) {
                 quit = true;
@@ -21,7 +21,7 @@ int main() {
             }
             row--;
 
-            std::cout << "Enter the column (-1 to quit the game) : ";
+            std::cout << "Enter the column (-1 to quit the game) :" << std::endl;
             std::cin >> col;
             if (row == -1) {
                 quit = true;
@@ -37,7 +37,7 @@ int main() {
         }
 
         while(!quit) {
-            std::cout << "Enter the number (-1 to quit the game) : ";
+            std::cout << "Enter the number (-1 to quit the game) :" << std::endl;
             std::cin >> x;
             if (x == -1) {
                 quit = true;
