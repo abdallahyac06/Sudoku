@@ -15,7 +15,7 @@ A simple yet fun implementation of the Sudoku game that runs in the terminal. Th
 ### Prerequisites
 
 To play the game, you need:
-- A Windows terminal.
+- A Linux terminal.
 - The appropriate runtime environment:
   - G++ (C++ compiler).
   - Make
@@ -25,14 +25,14 @@ To play the game, you need:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/abdallahyac06/Sudoku
+   git clone git@github.com:abdallahyac06/Sudoku.git
    cd Sudoku
 2. Build the project:
    ```bash
    make
 3. Run the main program:
    ```bash
-   ./main.out
+   ./main
 4. When you're done, you can remove all the generated files:
    ```bash
    make clean
